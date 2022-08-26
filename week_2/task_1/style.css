@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(92, 189, 221);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+
+}
+h1{
+    line-height: 33px;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: auto;
+}
+
+header{
+    background:rgb(154, 170, 232);
+    text-align: right;
+
+}
+nav ul{ 
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header li{
+    display: inline-block;
+}
+li:hover{
+    background-color: rgb(39, 135, 39);
+}
+#boxes{
+    background: url("https://previews.123rf.com/images/manfredinim/manfredinim0910/manfredinim091000022/5714697-protects-the-nature.jpg");
+}
+.box{
+    display: inline-block;
+    margin: 32px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{
+    height: 200px;
+    width: 200px;
+    background: rgb(72, 11, 71);
+    margin-bottom:10px;
+}
+.box1{
+    border: 3px dotted rebeccapurple;
+    background-color: rgb(199, 232, 17);
+
+}
+
+.box2{
+    border: 10px double black;
+    background-color: rgb(237, 30, 109);
+
+}
+.box3{
+    border-style: ridge;
+    border-width: 15px;
+    border-color: blue ;
+    background-color: rgb(16, 203, 197);
+
+}
+.box4{
+    border: 15px dotted rgb(18, 89, 160);
+    border-radius: 20px;
+    background-color: rgb(192, 132, 36);
+}
+.box5{
+    border-radius: 50%;
+    border-width: 8px;
+    border-color: rgb(154, 100, 34);
+    border-style: dotted;
+    background-color: rgb(38, 180, 59);
+}
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td{
+    width: 200px;
+    padding: 15px;
+}
+
+thead{
+    font-weight: bold;
+    background: #333;
+    color: white;
+}
+tbody{
+    color: rgb(81, 9, 9);
+
+}
+/* th{
+    text-align: center;
+
+} */
+tbody td{
+    border-bottom: 3px solid #333;
+}
