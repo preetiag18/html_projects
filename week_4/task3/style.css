@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;/*to have space around the heading content  */
+    background-color: rgb(247, 231, 8);
+    color: black;
+}
+
+.site_title{
+    flex: 3;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex: 1;/* it put the link right side of the corner */
+    background-color: rgb(241, 150, 211);
+    
+    
+ 
+}
+
+li{
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.post-title{
+    background-color: rgb(118, 181, 245);
+    height: 4rem;
+}
+
+.section-post-container{
+    
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 100vh;
+    background:rgb(139, 172, 145);
+
+
+}
+
+.post-meta{
+    background-color: rgb(87, 230, 166);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background: rgb(57, 82, 57);
+    flex: 1;
+}
