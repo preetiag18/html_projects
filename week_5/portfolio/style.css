@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin:1rem 0 ;
+    line-height: 1.5rem;
+}
+
+body{
+    font-family: "lato, sans-serif";
+    color: #333;
+}
+
+h2{
+    margin: 2rem 0;
+}
+
+i{
+    font-size: 3rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#skills{
+    min-height: 500px;
+}
+
+.skill{
+    background-color:rgb(166, 156, 156) ;
+    padding: 2rem;
+    border: 1px solid rgb(78, 71, 71);
+}
+
+.skills_group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skill:nth-child(odd){
+    background-color: darkcyan;
+}
+
+progress[value]{
+    height: 1.5rem;
+    background: transparent;
+    -webkit-appearance: none;
+
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: #eee;
+    border-radius: 5px;
+}
+progress[value]::-webkit-progress-value{
+    background: coral;
+    border-radius: 5px;
+    background-size: 35px 20px;
+}
+    
