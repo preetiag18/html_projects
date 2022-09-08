@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: bisque;
+    background-color: white;
 }
 p{
     font-size: 20px;
@@ -12,13 +18,31 @@ img{
 }
 
 header{
-    background:rgb(233, 239, 117);
+    background-image:url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwaGVhZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
     text-align: center;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 30rem;
 }
+
+header div{
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+
+h1{
+    line-height: 33px;
+    text-align: center;
+} 
+   
+
 nav ul{ 
     list-style-type: none;
 }
+
 
 ul li a{
     padding: 20px;
@@ -31,4 +55,17 @@ header li{
 }
 li:hover{
     background-color: rgb(39, 135, 121);
+}
+
+div{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: rgb(246, 210, 48);
+}
+
+footer{
+    height: 2rem;
+    text-align: center;
+    background: rgb(207, 167, 5);
+    margin-top: 1rem;
 }
