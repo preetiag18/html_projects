@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(223, 237, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:"siteTitle siteTitle nav1 nav2 nav3 "
+    "postTitle postTitle postTitle postTitle sidebar"
+    "meta content content  content sidebar"
+    "meta content content  content ads"
+    "meta image image image ads"
+    "meta image image image  stuff"
+    "meta image image image  stuff"
+    "footer footer footer footer footer";
+
+    grid-gap:0.4rem;
+    grid-auto-rows: 1fr;
+    margin:0.5rem
+}   
+.Stitle{
+    grid-area: siteTitle;
+    background-color: rgb(123, 123, 5);
+    min-height: 150px;
+    
+}
+
+.nav1{
+    grid-area: nav1;
+    background:pink ;
+    
+}
+.nav2{
+    grid-area: nav2;
+    background:pink ;
+    
+}
+.nav3{
+    grid-area: nav3;
+    background:pink ;
+   
+}
+
+.Ptitle{
+ grid-area: postTitle;
+ background: rgb(180, 223, 241);
+}
+
+.sidebar{
+ grid-area: sidebar;
+ background: chocolate;
+}
+
+.meta{
+ grid-area: meta;
+ background:palegreen ;
+}
+
+.content{
+ grid-area: content;
+ background:gray ;
+}
+
+.ads{
+    grid-area: ads;
+    background:green;
+}
+
+.image{
+ grid-area: image;
+ background:yellow;
+}
+
+.stuff{
+ grid-area: stuff;
+ background:purple ;
+}
+
+.footer{
+ grid-area: footer;
+ background:brown ;
+}
+
