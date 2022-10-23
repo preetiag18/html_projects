@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #093747;
+    align-items: center;
+}
+header img {
+    height: 5rem;
+}
+
+nav {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    color: #093747;
+}
+
+h2 {
+    margin: 4rem;
+}
+
+h3 {
+    margin: 5rem 0 1.5rem 0;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 7rem;
+}
+
+.aboutMe .details {
+    max-width: 30rem;
+}
+.selected {
+    text-decoration: underline;
+  }
