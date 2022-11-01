@@ -8,31 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-header {
-    height: 6rem;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #093747;
-    align-items: center;
-}
-header img {
-    height: 5rem;
-}
-
-nav {
-    width: 50vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    float: left;
-    color: white;
-}
 
 main {
     background-color: white;
@@ -83,4 +58,12 @@ h2 {
 
 .selected {
     text-decoration: underline;
+}
+
+.scroll {
+    background-color: white;
+}
+
+.scroll #mob_button {
+    color: #093747;
 }

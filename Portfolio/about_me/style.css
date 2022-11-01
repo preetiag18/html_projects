@@ -8,31 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-header {
-    height: 6rem;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #093747;
-    align-items: center;
-}
-header img {
-    height: 5rem;
-}
-
-nav {
-    width: 50vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a {
-    display: block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    float: left;
-    color: white;
-}
 
 main {
     background-color: white;
@@ -56,6 +31,7 @@ h3 {
 
 .aboutMe .details {
     max-width: 30rem;
+    margin: 0 2rem;
 }
 .selected {
     text-decoration: underline;

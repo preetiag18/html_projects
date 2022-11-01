@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../header.css" />
     <title>Document</title>
   </head>
 <body>
@@ -13,11 +18,17 @@
       <img src="../assets/logo-round-inverted.svg">
       </img>
       <nav>
-          <a href="../index.html">Home</a>
-          <a class="selected" href="index.html">Projects</a>
-          <a href="../about_me/index.html">About me</a>
-          <a href="../contact/index.html">Contact me</a>
-      </nav>
+         <button id="mob_button">
+           <span class="material-icons"> menu </span>
+         </button>
+         <ul>
+           <li><a href="../index.html">Home</a></li>
+           <li class="selected"><a href="index.html">Projects</a></li>
+           <li><a href="../gallery/index.html">Gallery</a></li>
+           <li><a href="../about_me/index.html">About me</a></li>
+           <li><a href="../contact/index.html">Contact me</a></li>
+         </ul>
+       </nav>
     </header>
     <main>
       <h2>Projects</h2>
@@ -54,6 +65,7 @@
       </section>
     
     </main>
-   
+    <script src="../scripts.js"></script>
+    <script src="./projects.js"></script>
 </body>
 </html>

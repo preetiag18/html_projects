@@ -2,19 +2,34 @@
 
 <head>
     <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../header.css" />
+
 </head>
 <body>
    <header>
       <img src="../assets/logo-round-inverted.svg">
       </img>
       <nav>
-          <a href="../index.html">Home</a>
-          <a href="../projects/index.html">Projects</a>
-          <a class="selected" href="index.html">About me</a>
-          <a href="../contact/index.html">Contact me</a>
-      </nav>
+         <button id="mob_button">
+           <span class="material-icons"> menu </span>
+         </button>
+         <ul>
+           <li><a href="../index.html">Home</a></li>
+           <li><a href="../projects/index.html">Projects</a></li>
+           <li><a href="../gallery/index.html">Gallery</a></li>
+           <li class="selected"><a href="index.html">About me</a></li>
+           <li><a href="../contact/index.html">Contact me</a></li>
+         </ul>
+       </nav>
    </header>
     
    <main>
@@ -34,5 +49,6 @@
          </div> 
       </section> 
    </main>
+   <script src="../scripts.js"></script>
 </body>
 </html>

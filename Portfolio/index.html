@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
     <title>Document</title>
   </head>
 
@@ -13,14 +18,28 @@
     <header>
       <img src="./assets/logo-round-inverted.svg">
       </img>
+
       <nav>
+        <button id="mob_button">
+          <span class="material-icons"> menu </span>
+        </button>
+        <ul>
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="./projects/index.html">Projects</a></li>
+          <li><a href="./gallery/index.html">Gallery</a></li>
+          <li><a href="./about_me/index.html">About me</a></li>
+          <li><a href="./contact/index.html">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <!-- <nav>
         <a href="index.html">Home</a>
         <a href="./projects/index.html">Projects</a>
         <a href="./about_me/index.html">About me</a>
         <a href="./contact/index.html">Contact me</a>
-    </nav>
+    </nav> -->
     </header>
-      <main>
+    <main>
         <h1>
           Hi, I’m Preeti,
         </h1>
@@ -31,6 +50,7 @@
           <img src="./assets/github.png" alt="github">
           <span>Github</span>
         </a>
-      </main>
+    </main>
+    <script src="scripts.js"></script>
   </body>
 </html>
