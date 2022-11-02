@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+    background-color: white;
+    color: #093747;
+}
+
+h2 {
+    margin: 4rem;
+}
+
+h3 {
+    margin: 5rem 0 1.5rem 0;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 7rem;
+}
+
+.aboutMe .details {
+    max-width: 30rem;
+    margin: 0 2rem;
+}
+.selected {
+    text-decoration: underline;
+  }

@@ -4,53 +4,220 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@400;500;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header.css" />
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
 
   <body>
     <header>
-      <img src="./assets/logo-round-inverted.svg">
-      </img>
-
+      <img src="./assets/logo-round-inverted.svg" />
       <nav>
         <button id="mob_button">
           <span class="material-icons"> menu </span>
         </button>
         <ul>
-          <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="./projects/index.html">Projects</a></li>
-          <li><a href="./gallery/index.html">Gallery</a></li>
-          <li><a href="./about_me/index.html">About me</a></li>
-          <li><a href="./contact/index.html">Contact me</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#myDetails">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contactMe">Contact me</a></li>
         </ul>
       </nav>
-
-      <!-- <nav>
-        <a href="index.html">Home</a>
-        <a href="./projects/index.html">Projects</a>
-        <a href="./about_me/index.html">About me</a>
-        <a href="./contact/index.html">Contact me</a>
-    </nav> -->
     </header>
     <main>
-        <h1>
-          Hi, I’m Preeti,
-        </h1>
-        <h1>
-          Full stack developer
-        </h1>
-        <a class="github" href="https://github.com/preetiag18/" target="_blank">
-          <img src="./assets/github.png" alt="github">
-          <span>Github</span>
-        </a>
+      <section id="home" class="scrollable">
+        <div class="homeDetails">
+          <h1>Hi, I’m Preeti,</h1>
+          <h1>Full stack developer</h1>
+          <a
+            class="github"
+            href="https://github.com/preetiag18/"
+            target="_blank"
+          >
+            <img src="./assets/github.png" alt="github" />
+            <span>Github</span>
+          </a>
+        </div>
+      </section>
+      <section id="myDetails" class="scrollable">
+        <h2>About me</h2>
+        <section class="aboutMe">
+          <img src="./assets/my-photo.jpeg" />
+          <div class="details">
+            <p>
+              A student of Full Stack Web Developer Program at Helsinki Business
+              College, excited to build, develop, and create. I’m passionate
+              about learning new technologies.
+            </p>
+            <br />
+            <p>
+              🌱 I work with Javascript(ES6), React.js, Node.js, HTML5, CSS3
+            </p>
+            <p>🎨 I make designs with Figma</p>
+            <p>👨‍💻 I’m currently working on my school projects</p>
+            <p>⚡ Fun fact, I play badminton, bacause I am tall.</p>
+            <h3>Skills</h3>
+            <p>Javascript, React.Js, NodeJs, CSS3, HTML5, UI/UX</p>
+          </div>
+        </section>
+      </section>
+      <hr size="8" />
+      <section id="projects" class="scrollable">
+        <h2>Projects</h2>
+        <section class="cards">
+          <div class="card">
+            <img src="./assets/pokedex.png" />
+            <h3>Pokemon</h3>
+            <p>
+              This application fetches the pokemon details of choosen generation
+              from pokemon apis. User can also search for a specific pokemon.
+            </p>
+            <a href="https://public.bc.fi/s2200725/pokedex/" target="_blank">
+              See more</a
+            >
+          </div>
+
+          <div class="card">
+            <img src="./assets/todo.png" />
+            <h3>Todo App</h3>
+            <p>
+              This is a todo app, where user can add and remove daily tasks.
+              User can close the browser and come back later to mark tasks done.
+            </p>
+            <a href="https://public.bc.fi/s2200725/Todo/">See more</a>
+          </div>
+
+          <div class="card">
+            <img src="./assets/pizza-order.png" />
+            <h3>Pizza order</h3>
+            <p>
+              This app takes order for pizza from user. Users can fill in their
+              choices and then app shows the total payable amount
+            </p>
+            <a href="https://public.bc.fi/s2200725/pizza_order/">See more</a>
+          </div>
+          <div class="card">
+            <img src="./assets/speed-game.png" />
+            <h3>Speed Game</h3>
+            <p>
+              This is badminton speed game made in Javascript. You should hit
+              every shuttle with racket in order to score. Enjoy the game
+            </p>
+            <a href="https://public.bc.fi/s2200725/speed_game/">Play it here</a>
+          </div>
+        </section>
+      </section>
+      <hr size="8" />
+      <section id="gallery" class="scrollable">
+        <h2>Gallery</h2>
+        <div class="moodboard">
+          <img
+            src="https://source.unsplash.com/500x400/?badminton"
+            class="one"
+          />
+          <img
+            src="https://source.unsplash.com/500x400/?indianCricket"
+            class="two"
+          />
+          <img src="https://source.unsplash.com/500x400/?tiger" class="three" />
+          <img src="https://source.unsplash.com/500x400/?lion" class="four" />
+          <img src="https://source.unsplash.com/500x400/?art" class="five" />
+          <img src="https://source.unsplash.com/500x400/?stadium" class="six" />
+          <img src="https://source.unsplash.com/500x400/?carft" class="seven" />
+          <img
+            src="https://source.unsplash.com/500x400/?cooking"
+            class="eight"
+          />
+          <img src="https://source.unsplash.com/500x400/?coding" class="nine" />
+        </div>
+      </section>
+      <hr size="8" />
+      <section id="contactMe" class="scrollable">
+        <h2>Contact me</h2>
+        <section class="contact">
+          <div class="contactMethods">
+            <div class="contactMethod">
+              <img src="./assets/email.png" />
+              <a href="mailto:preetiag18@gmail.com">preetiag18@gmail.com</a>
+            </div>
+            <div class="contactMethod">
+              <img src="./assets/linkedin.png" />
+              <a href="https://www.linkedin.com/in/preeti-agrawal-11394254/"
+                >https://www.linkedin.com/in/preeti-agrawal-11394254/</a
+              >
+            </div>
+            <div class="contactMethod">
+              <img src="./assets/phone.png" />
+              <a href="tel:+358403612094">+358403612094</a>
+            </div>
+          </div>
+          <form>
+            <div class="mb-5">
+              <label for="name" class="form-label"> Full Name </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                class="form-input"
+              />
+            </div>
+
+            <div class="mb-5">
+              <label for="email" class="form-label"> Email Address </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="form-input"
+              />
+            </div>
+
+            <div class="mb-5">
+              <label for="subject" class="form-label"> Subject </label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Enter your subject"
+                class="form-input"
+              />
+            </div>
+
+            <div class="mb-5">
+              <label for="message" class="form-label"> Message </label>
+              <textarea
+                rows="6"
+                name="message"
+                id="message"
+                placeholder="Type your message"
+                class="form-input"
+              ></textarea>
+            </div>
+
+            <div>
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </section>
+      </section>
     </main>
+    <footer id="footer">
+      <p>Copyright &copy 2022</p>
+      <button class="btn" id="back_to_top">
+        Back to Top <span class="material-icons"> arrow_upward </span>
+      </button>
+    </footer>
     <script src="scripts.js"></script>
   </body>
 </html>

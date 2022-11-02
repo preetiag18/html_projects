@@ -6,6 +6,7 @@ header {
     justify-content:space-between;
     align-items: center;
     background-color: #093747;
+    z-index: 1;
 }
 
 header img {
@@ -24,6 +25,10 @@ a {
 nav ul li {
     display: inline-block;
     margin: 1rem;
+}
+
+nav ul li a:hover{
+  color: #c89e37;
 }
   
 #mob_button {
